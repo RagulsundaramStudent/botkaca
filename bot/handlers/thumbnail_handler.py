@@ -1,7 +1,7 @@
 from pyrogram import Client, Message, Filters
 from os.path import join as os_path_join
 from bot import COMMAND, LOCAL, CONFIG
-from bot.plugins import thumbnail_video
+from bot.plugins import thumbnail_doc
 
 thumbnail_path = os_path_join(CONFIG.ROOT, CONFIG.WORKDIR, CONFIG.THUMBNAIL_NAME)
 
